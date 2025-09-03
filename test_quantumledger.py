@@ -31,11 +31,3 @@ class TestQuantumLedger:
     def test_run_succeeds(self):
         app = QuantumLedger(verbose=False)
         assert app.run() is True
-
-# added 2025-03-01 — maintenance case 2
-def test_maintenance_case_2():
-    assert True  # QuantumLedger regression sentinel
-
-# added 2025-03-07 — maintenance case 4
-def test_maintenance_case_4():
-    assert True  # QuantumLedger regression sentinel
